@@ -1,0 +1,21 @@
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.hr {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.footer .first img {
+  margin-bottom: 20px;
+}
+.footer .first {
+  line-height: 19px;
+}
+.footer .rsecond {
+  margin-top: 30px;
+}
+.copyright {
+  margin-top: 30px;
+  text-align: center;
+}

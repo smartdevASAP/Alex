@@ -1,0 +1,195 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+.heading {
+  position: relative;
+  margin-top: 20px;
+  text-align: left;
+  margin-bottom: 50px;
+  background: linear-gradient(90deg, #ff18d5, #af0000, #e30db8);
+  color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+.heading .nav-back {
+  position: absolute;
+  left: 25%;
+  bottom: 30%;
+  scale: 3.2;
+}
+.right-section .explanation p {
+  color: rgb(213, 212, 212);
+  margin-bottom: 50px;
+}
+/* .right-section .explanation {
+} */
+.skills {
+  line-height: 30px;
+}
+.skill:hover {
+  scale: 1.1;
+  margin-bottom: 10px;
+}
+.dot {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  width: 300px;
+  margin-top: 11px;
+  height: 5px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  background: linear-gradient(90deg, #ff18d5, #af0000, #e30db8);
+}
+.skill {
+  display: flex;
+  transition: 0.4s all;
+  cursor: context-menu;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.experience {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .years,
+.projects,
+.clients h2 {
+} */
+.years,
+.projects,
+.clients h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+.experience h2 {
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff18d5, #af0000, #e30db8);
+  color: transparent;
+  background-clip: text;
+  scale: 1.4;
+  font-weight: bolder;
+}
+@media (max-width: 800px) {
+  .about {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .about {
+    margin-left: 0px;
+  }
+  .left-section {
+    margin-left: -10px;
+  }
+  h1 {
+    font-size: 3.4rem;
+  }
+  .heading .nav-back {
+    margin-left: 190px;
+  }
+  .right-section .explanation {
+    font-size: 2.3rem;
+    margin-left: -10px;
+    margin-bottom: 50px;
+  }
+  .skills {
+    font-size: 1.6rem;
+  }
+  .skill {
+    /* line-height: 30px; */
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .right-section.experience {
+    margin-top: 50px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3.4rem;
+  }
+  .heading .nav-back {
+    margin-left: 220px;
+  }
+  .right-section .explanation {
+    font-size: 2.3rem;
+    margin-left: -10px;
+    margin-bottom: 50px;
+  }
+  .skills {
+    font-size: 1.6rem;
+  }
+  .skill {
+    /* line-height: 30px; */
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .experience {
+    margin-top: 50px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 700px) {
+  h1 {
+    font-size: 3.4rem;
+  }
+  .heading .nav-back {
+    margin-left: 220px;
+  }
+  .right-section .explanation {
+    font-size: 2.3rem;
+    margin-left: -10px;
+    margin-bottom: 50px;
+  }
+  .skills {
+    font-size: 1.6rem;
+  }
+  .skill {
+    /* line-height: 30px; */
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .experience {
+    margin-top: 50px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3.4rem;
+    margin-left: 100px;
+  }
+  .left-section img {
+    margin-left: 100px;
+  }
+  .heading .nav-back {
+    margin-left: 220px;
+  }
+  .right-section .explanation {
+    font-size: 2.3rem;
+    margin-left: -10px;
+    margin-bottom: 50px;
+  }
+  .skills {
+    margin-left: 100px;
+    font-size: 1.6rem;
+  }
+  .skill {
+    /* line-height: 30px; */
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .experience {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+  }
+}

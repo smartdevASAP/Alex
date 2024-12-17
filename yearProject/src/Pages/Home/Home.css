@@ -1,0 +1,157 @@
+.home {
+  text-align: center;
+  margin-top: 40px;
+  animation: fadeIn 1.5s;
+}
+
+.img {
+  width: 240px;
+}
+.img-contaner img {
+  margin-left: 50%;
+}
+.description .main {
+  /* color: linear-gradient(130deg, rgb(182, 4, 128), blue);
+  color: rgb(247, 0, 194); */
+  background: linear-gradient(90deg, #ff18d5, #af0000, #e30db8);
+  color: transparent;
+  background-clip: text;
+  /* font-weight: 500; */
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-style: normal;
+}
+.description h1 {
+  font-family: "Poppins", serif;
+  font-weight: 450;
+  font-style: normal;
+}
+.description p {
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: space-between;
+  width: 400px;
+}
+.description .connect {
+  margin-top: 30px;
+  margin: 30px;
+  transition: 0.4s all;
+  background: linear-gradient(100deg, red, blue);
+  padding: 20px 25px;
+  border: none;
+  border-radius: 300px;
+  color: white;
+  font-weight: 400;
+}
+.description .resume {
+  padding: 20px 25px;
+  border: none;
+  transition: 0.4s all;
+  border-radius: 300px;
+  margin-top: 30px;
+  margin: 30px;
+  color: white;
+  background-color: rgba(15, 15, 15, 0.662);
+  border: 1px solid white;
+  font-weight: 400;
+}
+.description button:hover {
+  scale: 1.02;
+}
+.description button:active {
+  scale: 0.98;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  /* 50% {
+    opacity: 0.5;
+    position: absolute;
+    margin-left: 20%;
+  } */
+  to {
+    opacity: 0.9;
+  }
+}
+@media (max-width: 700px) {
+  .img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .img {
+    scale: 1.01;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .description .main {
+    width: 100%;
+    scale: 1.2;
+    font-size: 3.6rem;
+  }
+  .description p {
+    font-size: 2.3rem;
+  }
+  .description .connect {
+    margin-top: 90px;
+    scale: 1.2;
+  }
+  .description .resume {
+    margin-top: 90px;
+    scale: 1.2;
+  }
+}
+@media (max-width: 600px) {
+  .img {
+    scale: 1.01;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .description .main {
+    width: 100%;
+    scale: 1.01;
+    font-size: 3.3rem;
+  }
+  .description p {
+    font-size: 2.3rem;
+  }
+  .description .connect {
+    margin-top: 90px;
+    scale: 1.2;
+  }
+  .description .resume {
+    margin-top: 90px;
+    scale: 1.2;
+  }
+}
+@media (max-width: 700px) {
+  .img {
+    scale: 1.01;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .description .main {
+    width: 100%;
+    scale: 1.01;
+    font-size: 3.3rem;
+  }
+  .description p {
+    font-size: 2.3rem;
+  }
+  .description {
+    margin-bottom: 150px;
+  }
+  .description .connect {
+    margin-top: 90px;
+    scale: 1.2;
+  }
+  .description .resume {
+    margin-top: 90px;
+    scale: 1.2;
+  }
+}
