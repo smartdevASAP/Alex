@@ -1,15 +1,19 @@
 {
+  "homepage": "http://smartdevASAP.github.io/kelvin-project",
   "name": "create-vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "react-scripts start",
     "build": "vite build",
     "lint": "eslint .",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
